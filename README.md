@@ -36,7 +36,7 @@
 
 
 - Para executar o desafio na pasta, primeiro abra ela no seu editor de texto.
-- Depois abra o seu terminal dentro dela e instale as dependências, exectuando o seguinte comando :
+- Depois abra o seu terminal dentro dela e instale as dependências, executando o seguinte comando :
     ```npm i```
 
 - Após isso pode executar o arquivo do desafio da mesma forma que os outros :
