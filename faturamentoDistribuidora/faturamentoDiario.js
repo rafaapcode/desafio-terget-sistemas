@@ -6,7 +6,6 @@ function handle() {
     return data;
 }
 
-
 function menorValor() {
     const menorFaturamento = handle()[0];
     const valorFormatado = new Intl.NumberFormat('pt-BR', {style: 'currency', currency: 'BRL'}).format(menorFaturamento.valor);
@@ -30,3 +29,8 @@ function diasAcimaDaMedia(media){
     const diasAcimaMedia = handle().filter(val => val.valor > media).length;
     return {info: `${diasAcimaMedia} dias faturaram acima da média.`};
 }
+
+
+console.log(menorValor());
+console.log(maiorValor());
+console.log(diasAcimaDaMedia(12300050));
