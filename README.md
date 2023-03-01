@@ -4,7 +4,7 @@
 
 - Desafio 2 
     - Este desafio esta localizado no arquivo chamado **fibonacci.js**
-    - Ele possui somente uma única função que possui a lógica para resolver o problema.
+    - Ele possui 3 funções, onde 2 são auxiliares e 1 retorna o resultado do desafio.
 
 - Desafio 3 
     - Este desafio está localizado na pasta **faturamentoDistribuidora**. Dentro do arquivo **faturamentoDiario.js**
@@ -20,3 +20,24 @@
 - Desafio 5
     - Esta localizado no arquivo **reverteString.js**.
     - Possui somente um única função que exerce a lógica.
+
+
+## Como executar os desafios
+- *PRE-REQUISITOS*
+    - NODEJS 
+
+- Primeiro faça o download do reposiório e abra ele no editor de texto de sua escolha.
+- Para executar os desafios que estão na raiz da projeto, como : FIBONACCI, PORCENTAGEMPORFATURAMENTO e REVERTESTRING. Abra o terminal na pasta do repositório e execute o seguinte comando :
+    ```node fibonacci.js ```
+    ```node porcentagemPorFaturamento.js ```
+    ```node reverteString.js ```
+
+- O resultado irá aparecer no próprio terminal.
+
+
+- Para executar o desafio na pasta, primeiro abra ela no seu editor de texto.
+- Depois abra o seu terminal dentro dela e instale as dependências, exectuando o seguinte comando :
+    ```npm i```
+
+- Após isso pode executar o arquivo do desafio da mesma forma que os outros :
+    ```node faturamentoDiario.js ```
